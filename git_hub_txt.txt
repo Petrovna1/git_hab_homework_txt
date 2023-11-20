@@ -4,7 +4,7 @@
 - нажать new
 - ввести наименование репозитория
 - поставить галочку Add a README file
-- нажать Create repository
+- нажать Create repository 
 2.	Клонировать репозиторий TXT на локальный компьютер.
 mkdir git_hub_homework_txt
 cd git_hub_homework_txt
