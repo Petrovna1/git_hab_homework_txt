@@ -43,7 +43,7 @@ skill_8 SQL_JOIN
 git commit -am "commit message"
 13.	Отправить сразу 2 файла на внешний репозиторий.
 git push
-14.	На веб интерфейсе создать файл bug_report.txt.
+14.	На веб интерфейсе создать файл bug_report.txt
 -нажать Add file;
 -нажать Create new file;
 -ввести наименование файла.
