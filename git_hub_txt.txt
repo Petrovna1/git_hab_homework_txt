@@ -39,7 +39,7 @@ skill_5 VPN_Proxy_TOR_CDN
 skill_6 SQL
 skill_7 SQL_DDL
 skill_8 SQL_JOIN
-12.	Сделать коммит в одну строку.
+12.	Сделать коммит в одну строку
 git commit -am "commit message"
 13.	Отправить сразу 2 файла на внешний репозиторий.
 git push
