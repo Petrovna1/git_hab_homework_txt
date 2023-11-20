@@ -9,7 +9,7 @@
 mkdir git_hub_homework_txt
 cd git_hub_homework_txt
 git clone https://github.com/Petrovna1/git_hub_homework_txt.git
-3.	Внутри локального TXT создать файл “new.txt”.
+3.	Внутри локального TXT создать файл “new.txt”
 cd git_hub_homework_txt
  cat > new.txt (Enter, Ctrl+C)
 4.	Добавить файл под гит
