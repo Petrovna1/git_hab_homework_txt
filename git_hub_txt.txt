@@ -1,22 +1,22 @@
-1.	Создать внешний репозиторий c названием TXT (я назвала git_hub_homework_txt)
+1. Создать внешний репозиторий c названием TXT (я назвала git_hub_homework_txt)
 - зайти на github.com в личный кабинет
 - зайти во вкладку repositories 
 - нажать new
 - ввести наименование репозитория
 - поставить галочку Add a README file
 - нажать Create repository 
-2.	Клонировать репозиторий TXT на локальный компьютер
+2. Клонировать репозиторий TXT на локальный компьютер
 mkdir git_hub_homework_txt
 cd git_hub_homework_txt
 git clone https://github.com/Petrovna1/git_hub_homework_txt.git
-3.	Внутри локального TXT создать файл “new.txt”
+3. Внутри локального TXT создать файл “new.txt”
 cd git_hub_homework_txt
 cat > new.txt (Enter, Ctrl+C)
-4.	Добавить файл под гит
+4. Добавить файл под гит
 git add new.txt (либо git add .)
-5.	Закоммитить файл.
+5. Закоммитить файл.
 git commit -m new.txt
-6.	Отправить файл на внешний GitHub репозиторий
+6. Отправить файл на внешний GitHub репозиторий
 git push
 7.	Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
 cat >> new.txt
