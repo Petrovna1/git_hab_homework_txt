@@ -18,18 +18,18 @@ git add new.txt (либо git add .)
 git commit -m new.txt
 6. Отправить файл на внешний GitHub репозиторий
 git push
-7.	Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
 cat >> new.txt
 My name is my last name, first name and patronymic Gubenok Victoria Petrovna.I am 24 years old.I don't have any pets unfortunately.I would like to earn at least 150,000 thousand Russian rubles in two or three years.
-8.	Отправить изменения на внешний репозиторий.
+8. Отправить изменения на внешний репозиторий.
 git commit -am new.txt
 git push
-9.	Создать файл preferences.txt
+9. Создать файл preferences.txt
 cat > preferences.txt
-10.	В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
 cat >> preferences.txt
 My favorite movie is "Star Wars", and my favorite TV series is "The Edge". I have a lot of favorite dishes, but for some reason cabbage rolls have come to mind now. I like all seasons, but most of all I like late spring. I would like to visit Italy first of all.
-11.	Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
 cat > sklls.txt
 skill_1 Terminal
 skill_2 GitBash
@@ -39,20 +39,20 @@ skill_5 VPN_Proxy_TOR_CDN
 skill_6 SQL
 skill_7 SQL_DDL
 skill_8 SQL_JOIN
-12.	Сделать коммит в одну строку
+12. Сделать коммит в одну строку
 git commit -am "commit message"
-13.	Отправить сразу 2 файла на внешний репозиторий
+13. Отправить сразу 2 файла на внешний репозиторий
 git push
-14.	На веб интерфейсе создать файл bug_report.txt
+14. На веб интерфейсе создать файл bug_report.txt
 -нажать Add file;
 -нажать Create new file;
 -ввести наименование файла.
-15.	Сделать Commit changes (сохранить) изменения на веб интерфейсе
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе
 -нажать Commit change после ввода наименования файла.
-16.	На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT
+16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT
 -кликаем на файл на веб сайте
 -кликаем на Edit the file 
-17.	Сделать Commit changes (сохранить) изменения на веб интерфейсе
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе
 -кликаем на Commit changes >> Commit changes
 18.	Синхронизировать внешний и локальный репозиторий TXT
 git fetch
