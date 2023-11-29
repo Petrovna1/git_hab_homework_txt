@@ -13,7 +13,7 @@ git clone https://github.com/Petrovna1/git_hub_homework_txt.git
 cd git_hub_homework_txt
 cat > new.txt (Enter, Ctrl+C)
 4. Добавить файл под гит
-git add new.txt (либо git add .)
+git add new.txt (либо git add .) 
 5. Закоммитить файл.
 git commit -m new.txt
 6. Отправить файл на внешний GitHub репозиторий
